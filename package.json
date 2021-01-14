@@ -1,0 +1,30 @@
+{
+  "name": "test-task-web3",
+  "version": "1.0.0",
+  "description": "task-web3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ihor-malyshko/test-task-web3.git"
+  },
+  "author": "Ihor Malyshko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ihor-malyshko/test-task-web3/issues"
+  },
+  "homepage": "https://github.com/Ihor-malyshko/test-task-web3#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bignumber.js": "^9.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.11",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "web3": "^1.3.1"
+  }
+}
